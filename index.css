@@ -19,14 +19,7 @@
   background-color: #DCDCDC;
 }
 /*Menu*/
-.burger>tr>th>td{
-  background-color: #DCDCDC;
-  padding: 10px;
-}
-.menu{
-  background-color: #DCDCDC;
-  padding: 5px;
-}
+
 
 /*Buttons*/
 button{
@@ -60,7 +53,15 @@ form{
     margin: 10px;
     border: 10px;
   }
+
+
 /*eat together*/
+.eat{
+  display: flex;
+  text-align: right;
+  
+
+}
 #juice{
   width: 250px;
   height: 250px;
@@ -71,25 +72,51 @@ form{
   padding: 5px
 }
 
-.item-1 #burger{
-  width: 100px;
-  height: 100px;
+#burger{
+  width: 250px;
+  height: 300px;
   display: flex;
-  justify-content: space-between; 
+  flex-direction: inherit;
+  
 }
 
-.item-1-row{
-  display: flex;
-  width: auto;
+menu {
+  padding: 60px;
 }
-
-
+.menu-item {
+  padding: 40px;
+  background-color: #98FB98;
+}
+.item-1-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.item-1 {
+  width: 300px;
+  height: 160px;
+  background-color: white;
+  border-bottom-right-radius: 40px;
+}
+.item-1 h4 {
+  font-size: 1.3rem;
+  padding: 5px;
+}
+.hum-1 {
+  justify-content: space-between;
+  display: flex;
+}
+.hum-1 img {
+  margin-top: -40px;
+  margin-left: -50px;
+  width: 10rem;
+  height: auto;
+}
 .people{
   width: 300px;
   height: 300px; 
   float: left;
 }
-
 
 
   /*Contact us*/
