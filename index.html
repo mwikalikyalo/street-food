@@ -8,11 +8,8 @@
   <link rel="stylesheet" href="index.css">
 </head>
 <body>
-
-  <!--Header of the page-->
-  <header id="banner">
-    <div id="banner"></div>
-      <nav>
+  <div class="banner">
+      <nav id="header">
         <a href="Home">Home</a>
         <a href="About">About</a>
         <a href="Our Menu">Our Menu</a>
@@ -23,18 +20,18 @@
         <a href="Gallery">Gallery</a>
         <a href="Contact">Contact</a>
       </nav>
-
+    </div>
     <div class="order">
       <button>Order Now</button>
-    </div>
+      </div>
   </header>
   <br>
 
   <!--The paragraph after the header-->
-  <div id="Paragraph">
-  <h2>Street Food</h2>
-  <h3>We don't play with food.</h3>
-  <p>When I was a small boy, my father told me never to recommend <br>a church to anyone. 
+    <div id="Paragraph">
+      <h2>Street Food</h2>
+      <h3>We don't play with food.</h3>
+      <p>When I was a small boy, my father told me never to recommend <br>a church to anyone. 
     <br>And I have found it wise never to recommend a restaurant either.<br>
     Something always go wrong with the cheese souffle.</p>
   </div>
@@ -42,32 +39,52 @@
 
   <!--Eat together-->
   <div class="Together">
-    <h3>Eat Together</h3>
-    <p>There is something profoundly satisfying about sharing a meal.<br> Eating together, breaking bread together, is one of the oldest<br> and fundamentally unifying of human experiences.</p>
-    <img src="" alt="Two people eating together">
+    <img src="Assets/eating_together.png" alt="Two people eating together" class="people">
+    <h3 class="eat">Eat Together</h3>
+    <p>There is something profoundly satisfying about sharing a meal.<br>
+      Eating together, breaking bread together, is one of the oldest<br>
+      and fundamentally unifying of human experiences.</p>
   </div>
 
   <!--Explore menu-->
-  <span id="menu">
-    <h3>Explore Menu</h3>
-      <table>
-        <tr>
-          <th>Burger Name</th>
-          <th>Burger Name</th>
-          <th>Burger Name </th>
-          <th>Burger Name </th>
-          <th>Burger Name </th>
-          <th>Burger Name </th>
-        </tr>
-        <tr>
-          <td>There is something profoundly satisfying about <br>sharing a meal</td>
-          <td>There is something profoundly satisfying about<br> sharing a meal</td>
-          <td>There is something profoundly satisfying about<br> sharing a meal</td>
-          <td>There is something profoundly satisfying about <br>sharing a meal</td>
-          <td>There is something profoundly satisfying about <br>sharing a meal</td>
-          <td>There is something profoundly satisfying about <br>sharing a meal</td>
-        </tr>          
-      </table>
+  <div class="menu">
+    <div class="menu-item">
+      <div class="item-1">
+        <div class="item-1-row">
+          <h3 class="burger"> Burger Name
+            <img src="Assets/burger.png" alt="burger" id="burger">
+            <p>There is something profoundly satisfying about <br>sharing a meal</p>
+          </h3>
+        </div>
+        <div class="item-1-row">
+          <h3 class="burger"> Burger Name
+            <img src="Assets/burger.png" alt="burger" id="burger">
+            <p>There is something profoundly satisfying about <br>sharing a meal</p>
+        </div>
+        <div class="item-1-row">
+          <h3 class="burger"> Burger Name
+            <img src="Assets/burger.png" alt="burger" id="burger">
+            <p>There is something profoundly satisfying about <br>sharing a meal</p>
+      <!--end of one row--> 
+      <div class="item-1-row">
+        <h3 class="burger"> Burger Name
+          <img src="Assets/burger.png" alt="burger" id="burger">
+          <p>There is something profoundly satisfying about <br>sharing a meal</p>
+        </h3>
+      </div>
+      <div class="item-1-row">
+        <h3 class="burger"> Burger Name
+          <img src="Assets/burger.png" alt="burger" id="burger">
+          <p>There is something profoundly satisfying about <br>sharing a meal</p>
+      </div>
+      <div class="item-1-row">
+        <h3 class="burger"> Burger Name
+          <img src="Assets/burger.png" alt="burger" id="burger">
+          <p>There is something profoundly satisfying about <br>sharing a meal</p>
+    </div>
+  </div> 
+  <!--End of row 2-->   
+  
 
 <!--Deals-->
   <div id="deals">
@@ -75,6 +92,7 @@
     <h3>SPECIAL COMBO PACK</h3>
     <h4 class="fizz">Burger Fizz <br> Fries and Drinks</h4>
       <p>There is something profoundly satisfying about sharing a meal.<br> Eating together, breaking bread together, is one of the oldest<br> and fundamentally unifying of human experiences.</p>
+    <img src="Assets/juice.png"alt="glass of juice" id="juice">
   </div>
   <br>
 
