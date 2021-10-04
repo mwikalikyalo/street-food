@@ -6,6 +6,17 @@
 .banner{
   background-color: #DCDCDC;
 }
+
+/*eat-together*/
+.together
+{
+  background-color: white;
+}
+.eat{
+  background-color: white;
+}
+
+
 #header {
   background-color: white;
   color: black;
@@ -36,6 +47,7 @@ form{
   border-width: 20%;
   font-weight: bold;
   text-align: left;
+  
 }
   /*reduce length of the border*/
   /*Hot deals*/
@@ -64,19 +76,21 @@ form{
 }
 #juice{
   width: 250px;
-  height: 250px;
+  height: 300px;
   display: flex;
   flex-direction: inherit;
   flex-grow: 1;
   float: top left;
-  padding: 5px
+  padding: 5px;
+  margin-top: -25%;
 }
 
 #burger{
-  width: 250px;
-  height: 300px;
+  width: 150px;
+  height: 150px;
   display: flex;
-  flex-direction: inherit;
+  margin-top: -13%;
+  margin-left: 10%;
   
 }
 
