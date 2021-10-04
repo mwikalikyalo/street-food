@@ -1,9 +1,153 @@
 *{
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: Poppins;
 }
-/*Header*/
-/*Paragraph*/
 
+/*Header*/
+.banner{
+  background-color: #DCDCDC;
+}
+
+/*eat-together*/
+.together
+{
+  background-color: white;
+}
 .eat{
   background-color: white;
 }
+
+
+#header {
+  background-color: white;
+  color: black;
+  text-align: justify;
+  max-width: 960px;
+  margin: 0% auto;
+  text-transform: inherit;
+}
+
+.order{
+  background-color: #DCDCDC;
+}
+/*Menu*/
+
+
+/*Buttons*/
+button{
+  background-color: #6CB840;
+  color: white;
+  padding: 10px;
+  margin: 20px;
+}
+/*Form*/
+form{
+  padding: 5px;
+  margin: 10px;
+  border: 2px solid black;
+  border-width: 20%;
+  font-weight: bold;
+  text-align: left;
+  
+}
+  /*reduce length of the border*/
+  /*Hot deals*/
+#deals{
+    background-color: #C9ECB5;
+    text-align: right;
+    padding: 5%;
+    margin-bottom: 0%;
+    border: 0%;
+  }
+.deals{
+    text-align: center;
+    font-weight: 700px;
+    padding: 10px;
+    margin: 10px;
+    border: 10px;
+  }
+
+
+/*eat together*/
+.eat{
+  display: flex;
+  text-align: right;
+  
+
+}
+#juice{
+  width: 250px;
+  height: 300px;
+  display: flex;
+  flex-direction: inherit;
+  flex-grow: 1;
+  float: top left;
+  padding: 5px;
+  margin-top: -25%;
+}
+
+#burger{
+  width: 150px;
+  height: 150px;
+  display: flex;
+  margin-top: -13%;
+  margin-left: 10%;
+  
+}
+
+menu {
+  padding: 60px;
+}
+.menu-item {
+  padding: 40px;
+  background-color: #98FB98;
+}
+.item-1-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.item-1 {
+  width: 300px;
+  height: 160px;
+  background-color: white;
+  border-bottom-right-radius: 40px;
+}
+.item-1 h4 {
+  font-size: 1.3rem;
+  padding: 5px;
+}
+.hum-1 {
+  justify-content: space-between;
+  display: flex;
+}
+.hum-1 img {
+  margin-top: -40px;
+  margin-left: -50px;
+  width: 10rem;
+  height: auto;
+}
+.people{
+  width: 300px;
+  height: 300px; 
+  float: left;
+}
+
+
+  /*Contact us*/
+#reach{
+  text-align: center;
+  background-color: #FFD77C;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 10px;
+}
+
+/*footer*/
+#availability{
+  background-color: #C9ECB5;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 5%;
+  text-align: inherit;
+}
+
