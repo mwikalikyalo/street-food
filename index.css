@@ -117,8 +117,15 @@ span.deals{
 /*eat together*/
 .eat{
   display: flex;
-  text-align: right;   
+  justify-content: space-between; 
 }
+div#ether{
+  display: flex;
+  justify-content: right;
+  float: right;
+  clear: right;
+}
+
 
 #juice{
   width: 250px;
@@ -201,9 +208,57 @@ span.us{
 /*footer*/
 #availability{
   background-color: #C9ECB5;
-  margin-left: 5%;
-  margin-right: 5%;
-  margin-top: 5%;
   text-align: inherit;
 }
+#footer{
+  background-color: #C9ECB5;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 10px;
+ }
+ .column{
+  display: table;
+  justify-content: space-around;
+  flex-direction: row;
+  float: left;
+  width: 25%
+  
+  }
+ .sections{
+  padding: 10px;
+  margin: 10px 10px 10px 0px;
+  }
+#day{
+  margin-right: 20px;
+  border-right: dashed #95b980;
+  }
+
+#area{
+  margin-left: 20px;
+  }
+#social-media{
+  margin-left: 50px;
+  justify-content: right;
+  }
+  
+#icon{
+  position: relative;
+      float: right;
+      width: 10%;
+      margin-top: 50px;
+      display:flex;
+      flex-wrap: no-wrap;
+      align-items: center; 
+      z-index: 1;
+   }
+   #button{
+      color: rgb(255,255,255);
+      background-color: #6CB840;
+      border-radius: 100px;
+      padding: 5px;
+      margin: 10px;
+      width: 400px;
+      height: 30px;
+      }
 
