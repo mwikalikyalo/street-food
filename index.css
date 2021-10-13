@@ -3,6 +3,7 @@
 }
 
 /*Header*/
+<<<<<<< HEAD
 nav{
   display: flex;
   justify-content: space-evenly;
@@ -44,14 +45,29 @@ nav{
   background-color: white;
   display: flex;
   flex-wrap: wrap;
+=======
+.banner{
+  background-color: #DCDCDC;
+}
+
+/*eat-together*/
+.together
+{
+  background-color: white;
+>>>>>>> e1b971c9d4ae1ffcc0486e46f37cdb218d5b5162
 }
 .eat{
   background-color: white;
 }
+<<<<<<< HEAD
 p#eat-together{
   display: flex;
   justify-content: space-around;
 }
+=======
+
+
+>>>>>>> e1b971c9d4ae1ffcc0486e46f37cdb218d5b5162
 #header {
   background-color: white;
   color: black;
@@ -72,18 +88,29 @@ button{
   background-color: #6CB840;
   color: white;
   padding: 10px;
+<<<<<<< HEAD
   margin: auto;
   border-radius: 18px;
   font-weight: bold;
 }
 
+=======
+  margin: 20px;
+}
+>>>>>>> e1b971c9d4ae1ffcc0486e46f37cdb218d5b5162
 /*Form*/
 form{
   padding: 5px;
   margin: 10px;
   border: 2px solid black;
   border-width: 20%;
+<<<<<<< HEAD
   text-align: left; 
+=======
+  font-weight: bold;
+  text-align: left;
+  
+>>>>>>> e1b971c9d4ae1ffcc0486e46f37cdb218d5b5162
 }
   /*reduce length of the border*/
   /*Hot deals*/
@@ -94,12 +121,17 @@ form{
     margin-bottom: 0%;
     border: 0%;
   }
+<<<<<<< HEAD
 span.deals{
+=======
+.deals{
+>>>>>>> e1b971c9d4ae1ffcc0486e46f37cdb218d5b5162
     text-align: center;
     font-weight: 700px;
     padding: 10px;
     margin: 10px;
     border: 10px;
+<<<<<<< HEAD
     color: #6CB840;
   }
 
@@ -113,10 +145,15 @@ span.deals{
   display: flex;
   justify-content: right;
 }
+=======
+  }
+
+>>>>>>> e1b971c9d4ae1ffcc0486e46f37cdb218d5b5162
 
 /*eat together*/
 .eat{
   display: flex;
+<<<<<<< HEAD
   justify-content: space-between; 
 }
 div#ether{
@@ -127,6 +164,12 @@ div#ether{
 }
 
 
+=======
+  text-align: right;
+  
+
+}
+>>>>>>> e1b971c9d4ae1ffcc0486e46f37cdb218d5b5162
 #juice{
   width: 250px;
   height: 300px;
@@ -143,7 +186,12 @@ div#ether{
   height: 150px;
   display: flex;
   margin-top: -13%;
+<<<<<<< HEAD
   margin-left: 10%; 
+=======
+  margin-left: 10%;
+  
+>>>>>>> e1b971c9d4ae1ffcc0486e46f37cdb218d5b5162
 }
 
 menu {
@@ -161,6 +209,10 @@ menu {
 .item-1 {
   width: 300px;
   height: 160px;
+<<<<<<< HEAD
+=======
+  background-color: white;
+>>>>>>> e1b971c9d4ae1ffcc0486e46f37cdb218d5b5162
   border-bottom-right-radius: 40px;
 }
 .item-1 h4 {
@@ -183,6 +235,7 @@ menu {
   float: left;
 }
 
+<<<<<<< HEAD
   /*Contact us*/
 span.contact{
   color: black;
@@ -197,6 +250,10 @@ span.us{
   font-weight: 500;
   padding: 10px;
 }
+=======
+
+  /*Contact us*/
+>>>>>>> e1b971c9d4ae1ffcc0486e46f37cdb218d5b5162
 #reach{
   text-align: center;
   background-color: #FFD77C;
@@ -208,6 +265,7 @@ span.us{
 /*footer*/
 #availability{
   background-color: #C9ECB5;
+<<<<<<< HEAD
   text-align: inherit;
 }
 #footer{
@@ -261,4 +319,11 @@ span.us{
       width: 400px;
       height: 30px;
       }
+=======
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 5%;
+  text-align: inherit;
+}
+>>>>>>> e1b971c9d4ae1ffcc0486e46f37cdb218d5b5162
 
