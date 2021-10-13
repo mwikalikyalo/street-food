@@ -9,35 +9,43 @@ nav{
   text-align: center;
   width: 100vw;
   z-index: 1;
+  background-color: #DCDCDC;
   }
 
-  nav > li{
-      margin-top: 100px;
-      padding-top: 10px;
-      list-style: none;
-      display:inline-block
-      }
-  nav > li > a{
-      color: black;
-      font-weight: bold;
-      text-decoration: none;
-      display: flex;
-  }
-  li > a {
-      text-decoration: none;}
-  .title{
-      padding-top: 20px;
-      padding-left: 20px;
-  }
-  .street{
-    color:  #6CB840;
-  }
-  span.food{
-    color: #EAAB1B;
-    clear: right;
-  }
+nav > li{
+  margin-top: 100px;
+  padding-top: 10px;
+  list-style: none;
+  display:inline-block
+}
+nav > li > a{
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+  display: flex;
+}
+li > a {
+  text-decoration: none;
+}
+.title{
+  padding-top: 20px;
+  padding-left: 20px;
+}
+.street{
+  color:  #6CB840;
+}
+span.food{
+  color: #EAAB1B;
+  clear: right;
+}
 
+div#banner{
+  background-color: #DCDCDC;  
+}
 
+div.paragragh, h2{
+  background-color: #DCDCDC;
+}
 
 /*eat-together*/
 .together{
