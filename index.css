@@ -66,15 +66,23 @@ p#eat-together{
   margin: 0% auto;
   text-transform: inherit;
 }
-
 .order{
   background-color: #DCDCDC;
 }
-
 img.people{
   width: 400px;
   height: 400px;
+  margin: 300px 300px 0px 0px;
+  text-align: center;
+  display: flex;
 }
+p#eat-together{
+  text-align-last: right;
+}
+.eat-2{
+  color: #EAAB1B;
+}
+
 /*Buttons*/
 button{
   background-color: #6CB840;
