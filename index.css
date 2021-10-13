@@ -3,20 +3,55 @@
 }
 
 /*Header*/
-.banner{
-  background-color: #DCDCDC;
-}
+nav{
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  width: 100vw;
+  z-index: 1;
+  }
+
+  nav > li{
+      margin-top: 100px;
+      padding-top: 10px;
+      list-style: none;
+      display:inline-block
+      }
+  nav > li > a{
+      color: black;
+      font-weight: bold;
+      text-decoration: none;
+      display: flex;
+  }
+  li > a {
+      text-decoration: none;}
+  .title{
+      padding-top: 20px;
+      padding-left: 20px;
+  }
+  .street{
+    color:  #6CB840;
+  }
+  span.food{
+    color: #EAAB1B;
+    clear: right;
+  }
+
+
 
 /*eat-together*/
-.together
-{
+.together{
   background-color: white;
+  display: flex;
+  flex-wrap: wrap;
 }
 .eat{
   background-color: white;
 }
-
-
+p#eat-together{
+  display: flex;
+  justify-content: space-around;
+}
 #header {
   background-color: white;
   color: black;
@@ -58,22 +93,21 @@ form{
     margin-bottom: 0%;
     border: 0%;
   }
-.deals{
+span.deals{
     text-align: center;
     font-weight: 700px;
     padding: 10px;
     margin: 10px;
     border: 10px;
+    color: #6CB840;
   }
-
 
 /*eat together*/
 .eat{
   display: flex;
-  text-align: right;
-  
-
+  text-align: right;   
 }
+
 #juice{
   width: 250px;
   height: 300px;
@@ -90,8 +124,7 @@ form{
   height: 150px;
   display: flex;
   margin-top: -13%;
-  margin-left: 10%;
-  
+  margin-left: 10%; 
 }
 
 menu {
@@ -109,7 +142,6 @@ menu {
 .item-1 {
   width: 300px;
   height: 160px;
-  background-color: white;
   border-bottom-right-radius: 40px;
 }
 .item-1 h4 {
@@ -132,8 +164,15 @@ menu {
   float: left;
 }
 
-
   /*Contact us*/
+span.contact{
+  color: black;
+  font-weight: bold;
+}
+span.us{
+  color: #6CB840;
+  font-weight: bold;
+}
 #reach{
   text-align: center;
   background-color: #FFD77C;
