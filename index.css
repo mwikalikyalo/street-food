@@ -1,9 +1,264 @@
 *{
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: Poppins;
 }
-/*Header*/
-/*Paragraph*/
 
+/*Header*/
+nav{
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  width: 100vw;
+  z-index: 1;
+  }
+
+  nav > li{
+      margin-top: 100px;
+      padding-top: 10px;
+      list-style: none;
+      display:inline-block
+      }
+  nav > li > a{
+      color: black;
+      font-weight: bold;
+      text-decoration: none;
+      display: flex;
+  }
+  li > a {
+      text-decoration: none;}
+  .title{
+      padding-top: 20px;
+      padding-left: 20px;
+  }
+  .street{
+    color:  #6CB840;
+  }
+  span.food{
+    color: #EAAB1B;
+    clear: right;
+  }
+
+
+
+/*eat-together*/
+.together{
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+}
 .eat{
   background-color: white;
 }
+p#eat-together{
+  display: flex;
+  justify-content: space-around;
+}
+#header {
+  background-color: white;
+  color: black;
+  text-align: justify;
+  max-width: 960px;
+  margin: 0% auto;
+  text-transform: inherit;
+}
+
+.order{
+  background-color: #DCDCDC;
+}
+/*Menu*/
+
+
+/*Buttons*/
+button{
+  background-color: #6CB840;
+  color: white;
+  padding: 10px;
+  margin: auto;
+  border-radius: 18px;
+  font-weight: bold;
+}
+
+/*Form*/
+form{
+  padding: 5px;
+  margin: 10px;
+  border: 2px solid black;
+  border-width: 20%;
+  text-align: left; 
+}
+  /*reduce length of the border*/
+  /*Hot deals*/
+#deals{
+    background-color: #C9ECB5;
+    text-align: right;
+    padding: 5%;
+    margin-bottom: 0%;
+    border: 0%;
+  }
+span.deals{
+    text-align: center;
+    font-weight: 700px;
+    padding: 10px;
+    margin: 10px;
+    border: 10px;
+    color: #6CB840;
+  }
+
+.combo{
+  color: #6CB840;
+  display: flex;
+  justify-content: right;
+}
+
+.fizz{
+  display: flex;
+  justify-content: right;
+}
+
+/*eat together*/
+.eat{
+  display: flex;
+  justify-content: space-between; 
+}
+div#ether{
+  display: flex;
+  justify-content: right;
+  float: right;
+  clear: right;
+}
+
+
+#juice{
+  width: 250px;
+  height: 300px;
+  display: flex;
+  flex-direction: inherit;
+  flex-grow: 1;
+  float: top left;
+  padding: 5px;
+  margin-top: -25%;
+}
+
+#burger{
+  width: 150px;
+  height: 150px;
+  display: flex;
+  margin-top: -13%;
+  margin-left: 10%; 
+}
+
+menu {
+  padding: 60px;
+}
+.menu-item {
+  padding: 40px;
+  background-color: #98FB98;
+}
+.item-1-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.item-1 {
+  width: 300px;
+  height: 160px;
+  border-bottom-right-radius: 40px;
+}
+.item-1 h4 {
+  font-size: 1.3rem;
+  padding: 5px;
+}
+.hum-1 {
+  justify-content: space-between;
+  display: flex;
+}
+.hum-1 img {
+  margin-top: -40px;
+  margin-left: -50px;
+  width: 10rem;
+  height: auto;
+}
+.people{
+  width: 300px;
+  height: 300px; 
+  float: left;
+}
+
+  /*Contact us*/
+span.contact{
+  color: black;
+  font-weight: bold;
+}
+span.us{
+  color: #6CB840;
+  font-weight: bold;
+}
+#address{
+  background-color: white;
+  font-weight: 500;
+  padding: 10px;
+}
+#reach{
+  text-align: center;
+  background-color: #FFD77C;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 10px;
+}
+
+/*footer*/
+#availability{
+  background-color: #C9ECB5;
+  text-align: inherit;
+}
+#footer{
+  background-color: #C9ECB5;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 10px;
+ }
+ .column{
+  display: table;
+  justify-content: space-around;
+  flex-direction: row;
+  float: left;
+  width: 25%
+  
+  }
+ .sections{
+  padding: 10px;
+  margin: 10px 10px 10px 0px;
+  }
+#day{
+  margin-right: 20px;
+  border-right: dashed #95b980;
+  }
+
+#area{
+  margin-left: 20px;
+  }
+#social-media{
+  margin-left: 50px;
+  justify-content: right;
+  }
+  
+#icon{
+  position: relative;
+      float: right;
+      width: 10%;
+      margin-top: 50px;
+      display:flex;
+      flex-wrap: no-wrap;
+      align-items: center; 
+      z-index: 1;
+   }
+   #button{
+      color: rgb(255,255,255);
+      background-color: #6CB840;
+      border-radius: 100px;
+      padding: 5px;
+      margin: 10px;
+      width: 400px;
+      height: 30px;
+      }
+
