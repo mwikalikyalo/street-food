@@ -83,8 +83,7 @@ form{
   margin: 10px;
   border: 2px solid black;
   border-width: 20%;
-  text-align: left;
-  
+  text-align: left; 
 }
   /*reduce length of the border*/
   /*Hot deals*/
@@ -103,6 +102,17 @@ span.deals{
     border: 10px;
     color: #6CB840;
   }
+
+.combo{
+  color: #6CB840;
+  display: flex;
+  justify-content: right;
+}
+
+.fizz{
+  display: flex;
+  justify-content: right;
+}
 
 /*eat together*/
 .eat{
