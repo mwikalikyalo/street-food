@@ -14,7 +14,7 @@ nav{
 
 nav > li{
   margin-top: 100px;
-  padding-top: 10px;
+  padding-top: -10px;
   list-style: none;
   display:inline-block
 }
@@ -23,6 +23,7 @@ nav > li > a{
   font-weight: bold;
   text-decoration: none;
   display: flex;
+  top: -10px;
 }
 li > a {
   text-decoration: none;
@@ -70,6 +71,10 @@ p#eat-together{
   background-color: #DCDCDC;
 }
 
+img.people{
+  width: 400px;
+  height: 400px;
+}
 /*Buttons*/
 button{
   background-color: #6CB840;
